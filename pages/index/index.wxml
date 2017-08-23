@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="classname {{ (shoufenqinName == 1) ? 'listAction' : ''}}" data-listid="1" catchtap="shoufenqin">爱心</view>
+  <view class="box {{ (shoufenqinName == 1) ? 'listAuto' : ''}}" data-listid="1">
+      <view class="list-item">爱国爱校</view>
+      <view class="list-item">乐于助人</view>
+      <view class="list-item">爱国爱校</view>
+      <view class="list-item">乐于助人</view>
+      <view class="list-item">爱国爱校</view>
+      <view class="list-item">乐于助人</view>
+  </view>
+</view>
+
+
+<view class="container">
+  <view class="classname {{ (shoufenqinName == 2) ? 'listAction' : ''}}" data-listid="2" catchtap="shoufenqin">守纪</view>
+  <view class="box {{ (shoufenqinName == 2) ? 'listAuto' : ''}}" data-listid="2">
+      <view class="list-item">我最帅</view>
+      <view class="list-item">我很帅</view>
+      <view class="list-item">我最帅</view>
+      <view class="list-item">我很帅</view>
+      <view class="list-item">我最帅</view>
+      <view class="list-item">我很帅</view>
+  </view>
+</view>
+
+
+
+<view class="container">
+  <view class="classname {{ (shoufenqinName == 3) ? 'listAction' : ''}}" data-listid="3" catchtap="shoufenqin">学习</view>
+  <view class="box {{ (shoufenqinName == 3) ? 'listAuto' : ''}}" data-listid="3">
+      <view class="list-item">我很有钱</view>
+      <view class="list-item">我很烦</view>
+      <view class="list-item">我很有钱</view>
+      <view class="list-item">我很烦</view>
+      <view class="list-item">我很有钱</view>
+      <view class="list-item">我很烦</view>
+      <view class="list-item">我很有钱</view>
+      <view class="list-item">我很烦</view>
+  </view>
+</view>

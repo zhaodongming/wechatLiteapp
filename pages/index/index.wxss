@@ -1,0 +1,44 @@
+.list{
+  height: 30px;
+  line-height: 30px;
+  border-bottom:1px solid #E1E1E1;
+}
+.list-right{
+  float: right
+}
+.box{
+	height:0px;
+	overflow:hidden;
+}
+.classname{
+	border-bottom:1px solid #E1E1E1;
+	height: 40px;
+	line-height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.list-item{
+  height: 30px;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom:1px solid #E1E1E1;
+  background: #DFEFFF;
+  font-size: 14px;
+}
+.classname .box{
+  height: 100px;
+}
+.listAction{
+  background: #5C93D3;
+  border: none;
+}
+.listAuto{
+  /*注意，过渡效果必须使用px单位才有效，使用auto和百分比都无效。
+  所以如果需要展开动画的话，高度就得px单位写死。
+  如果要高度自适应使用height:auto，但是没有动画  
+  */
+  height:185px;
+  transition:height .3s;
+}
